@@ -11,7 +11,8 @@
     "lint:js": "eslint .",
     "lint:js:fix": "eslint . --fix",
     "format": "prettier . --write",
-    "lint:fix": "npm run lint:js:fix && npm run format"
+    "lint:fix": "npm run lint:js:fix && npm run format",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
