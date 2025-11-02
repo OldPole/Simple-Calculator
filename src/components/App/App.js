@@ -7,7 +7,7 @@ class App {
     const root = document.getElementById('root');
 
     root.innerHTML = `
-        <h1 class="${styles.header}">PIWO</h1>
+      <h1 class="${styles.header}">PIWO</h1>
     `;
   }
 }
