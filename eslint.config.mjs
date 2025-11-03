@@ -16,6 +16,7 @@ export default defineConfig([
     languageOptions: { globals: globals.browser },
     rules: {
       ...prettierPlugin.configs.recommended.rules,
+      'prettier/prettier': ['error', { endOfLine: 'auto' }],
       'no-console': 'warn',
       eqeqeq: 'warn',
       curly: 'warn',

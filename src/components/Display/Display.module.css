@@ -1,0 +1,17 @@
+.display {
+  display: flex;
+  flex: 1;
+}
+.display_input {
+  border-start-start-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: right;
+  font-weight: 200;
+  color: white;
+  font-size: 50px;
+  padding: 0 15px;
+}
