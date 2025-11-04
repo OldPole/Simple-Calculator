@@ -34,6 +34,15 @@ class ButtonPanel {
 
     return html;
   }
+
+  attachEventListeners(clickHandler) {
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach((button) => {
+      button.addEventListener('click', (e) => {
+        clickHandler(e.target.textContent);
+      });
+    });
+  }
 }
 
 export default new ButtonPanel();
