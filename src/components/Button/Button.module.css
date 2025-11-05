@@ -5,12 +5,13 @@
   transition: all 0.2s;
   cursor: pointer;
 }
-.btn:active {
-  filter: brightness(0.85);
-}
 .btn:hover {
-  opacity: 0.8;
+  filter: brightness(0.9);
 }
+.btn:active {
+  filter: brightness(0.95);
+}
+
 .function {
   background-color: var(--theme-default-function);
 }
@@ -23,9 +24,9 @@
 .zero {
   grid-column: span 2;
   background-color: var(--theme-default-number);
-  border-end-start-radius: 20px;
+  border-end-start-radius: var(--border-radius);
 }
 .equals {
   background-color: var(--theme-default-operator);
-  border-end-end-radius: 20px;
+  border-end-end-radius: var(--border-radius);
 }

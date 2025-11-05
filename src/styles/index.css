@@ -2,8 +2,10 @@
 
 :root {
   --color-black: #000;
+  --color--white: #fff;
   --color-transparent-grey: #ffffff4e;
   --color-light-orange: #ff9f0a;
+  --color-grey: #b2b0ac;
   --color-purple: #8e27b1;
 
   --spacing-small: 10px;
@@ -35,6 +37,11 @@
   --theme-light-number: #dbdad7;
   --theme-neitral-number: #331b4b;
   --theme-default-number: var(--theme-dark-number);
+
+  --theme-dark-border: var(--color--white);
+  --theme-light-border: var(--color-black);
+  --theme-neitral-border: var(--color--white);
+  --theme-default-border: var(--theme-dark-border);
 }
 
 *,

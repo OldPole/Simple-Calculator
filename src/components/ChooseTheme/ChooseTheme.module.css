@@ -1,5 +1,5 @@
 .theme__container {
   display: flex;
   padding: var(--spacing-small) 0 0 var(--spacing-small);
-  gap: 10px;
+  gap: var(--spacing-small);
 }

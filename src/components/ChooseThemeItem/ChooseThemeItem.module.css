@@ -5,6 +5,10 @@
   cursor: pointer;
   transition: all 0.2s;
 }
+.theme__item_active {
+  scale: 1.1;
+  border: 2px solid var(--theme-default-border);
+}
 .theme__item:hover {
   scale: 1.1;
 }
@@ -15,7 +19,7 @@
   background-color: var(--color-light-orange);
 }
 .item__light {
-  background-color: var(--theme-dark-text);
+  background-color: var(--color-grey);
 }
 .item__neitral {
   background-color: var(--color-purple);
