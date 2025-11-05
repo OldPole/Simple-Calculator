@@ -1,0 +1,110 @@
+# Calculator
+
+A simple calculator developed in pure JavaScript.
+
+## Links
+
+- `Project Demo` https://oldpole.github.io/Simple-Calculator/
+- `Repository` https://github.com/OldPole/Simple-Calculator
+- `Developer` https://github.com/OldPole
+
+## How to run the app
+
+```bash
+# Install
+npm i                    # install dependencies
+```
+
+```bash
+# General
+npm run start            # run app in the development mode
+npm run build            # build project for production
+npm run deploy           # deploy app on Github Pages
+```
+
+## Project File Structure
+
+### `husky/`
+**Purpose:** Git hooks for automatic code checking  
+**File Type:** *Pre-commit* hook configuration files  
+
+---
+
+### `dist/`
+**Purpose:** Production build of the application  
+**File Type:** Optimized *HTML* and *JS* files  
+
+---
+
+### `node_modules/`
+**Purpose:** External project dependencies  
+**File Type:** Installed *npm* packages  
+
+---
+
+### `public/`
+**Purpose:** Static template files  
+**File Type:** *HTML*  
+
+**Main File:**  
+- `index.html` — main HTML template of the app  
+
+---
+
+### `src/`
+**Purpose:** Source code of the application  
+
+---
+
+### `components/` — components of the application
+
+#### Example: `App/` — root component of the app  
+- `App.js` — component logic  
+- `App.module.css` — component styles  
+- `index.js` — re-export of the component for shorter imports  
+
+#### Other components (similar structure)
+- `Button/` — calculator button component  
+- `ButtonPanel/` — calculator button panel  
+- `Calculator/` — main calculator component  
+- `ChooseTheme/` — theme selection component  
+- `ChooseThemeItem/` — theme item element  
+- `Display/` — calculator display  
+
+---
+
+### `services/`
+**Purpose:** Service functions  
+- `calculate.js` — mathematical calculations  
+- `changeCssVars.js` — CSS variable switching for themes  
+
+---
+
+### `styles/`
+**Purpose:** Global styles of the application  
+- `index.css` — main CSS variables and base styles  
+
+---
+
+### `utils/`
+**Purpose:** Utility functions  
+- `localStorage.js` — local storage management  
+
+---
+
+### `index.js`
+**Purpose:** Application entry point  
+- `index.js` — main entry file of the app  
+
+---
+
+## ⚙️ Configuration Files
+
+| File | Purpose |
+|------|----------|
+| `.gitignore` | Files ignored by Git |
+| `.prettierrc` | Prettier configuration |
+| `eslint.config.mjs` | ESLint configuration |
+| `package.json` | Project dependencies |
+| `package-lock.json` | Locked dependency versions |
+| `webpack.config.js` | Webpack build configuration |
