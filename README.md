@@ -2,7 +2,11 @@
 
 A simple calculator developed in pure JavaScript.
 
-## Links
+## Main Task Link
+
+https://docs.google.com/document/d/1zpXXeSae-BlcxPKgw3DhxZA92cspVailrPYoaXSYrW8/edit?tab=t.0#heading=h.5dt3hghpa22f
+
+## Project Links
 
 - `Project Demo` https://oldpole.github.io/Simple-Calculator/
 - `Repository` https://github.com/OldPole/Simple-Calculator
@@ -26,13 +30,13 @@ npm run deploy           # deploy app on Github Pages
 
 ### `husky/`
 **Purpose:** Git hooks for automatic code checking  
-**File Type:** *Pre-commit* hook configuration files  
+**File Type:** *Pre-commit* hook configuration file
 
 ---
 
 ### `dist/`
 **Purpose:** Production build of the application  
-**File Type:** Optimized *HTML* and *JS* files  
+**File Type:** Optimized *HTML* and *JS* file  
 
 ---
 
