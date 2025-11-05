@@ -1,0 +1,22 @@
+.theme__item {
+  border-radius: var(--border-radius);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.theme__item:hover {
+  scale: 1.1;
+}
+.theme__item:active {
+  filter: brightness(0.8);
+}
+.item__dark {
+  background-color: var(--color-light-orange);
+}
+.item__light {
+  background-color: var(--theme-dark-text);
+}
+.item__neitral {
+  background-color: var(--color-purple);
+}

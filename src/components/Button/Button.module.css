@@ -1,28 +1,31 @@
 .btn {
   border: none;
-  color: #ebebeb;
+  color: var(--theme-default-text);
   font-size: 24px;
-  transition: all 0.3s;
+  transition: all 0.2s;
   cursor: pointer;
 }
 .btn:active {
   filter: brightness(0.85);
 }
+.btn:hover {
+  opacity: 0.8;
+}
 .function {
-  background-color: #646464;
+  background-color: var(--theme-default-function);
 }
 .operator {
-  background-color: #ff9f0a;
+  background-color: var(--theme-default-operator);
 }
 .number {
-  background-color: #7d7d7d;
+  background-color: var(--theme-default-number);
 }
 .zero {
   grid-column: span 2;
-  background-color: #7d7d7d;
+  background-color: var(--theme-default-number);
   border-end-start-radius: 20px;
 }
 .equals {
-  background-color: #ff9f0a;
+  background-color: var(--theme-default-operator);
   border-end-end-radius: 20px;
 }

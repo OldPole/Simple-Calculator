@@ -1,6 +1,6 @@
 import App from './components/App';
 
-import './styles/main.css';
+import './styles/index.css';
 
 (() => {
   App.render();

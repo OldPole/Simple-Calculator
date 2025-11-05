@@ -1,5 +1,6 @@
-import Display from '../Display/Display';
-import ButtonPanel from '../ButtonPanel/ButtonPanel';
+import Display from '../Display';
+import ButtonPanel from '../ButtonPanel';
+import ChooseTheme from '../ChooseTheme';
 import { calculate } from '../../services/calculate';
 
 import styles from './Calculator.module.css';
@@ -107,6 +108,7 @@ class Calculator {
   render() {
     const html = `
         <div class=${styles.calculator}>
+            ${ChooseTheme.render()}
             ${Display.render()}
             ${ButtonPanel.render()}
         </div>
@@ -119,6 +121,8 @@ class Calculator {
     ButtonPanel.attachEventListeners((value) => {
       this.handleButtonClick(value);
     });
+
+    ChooseTheme.attachEventListeners();
   }
 }
 

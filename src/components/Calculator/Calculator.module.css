@@ -1,11 +1,11 @@
 .calculator {
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
-  border: 1px solid #ffffff4e;
-  outline: 1px solid #000;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-transparent-grey);
+  outline: 1px solid var(--color-black);
   width: 280px;
   height: 400px;
-  background-color: #535353;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  background-color: var(--theme-default-background);
+  box-shadow: var(--box-shadow);
 }

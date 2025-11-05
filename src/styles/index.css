@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+:root {
+  --color-black: #000;
+  --color-transparent-grey: #ffffff4e;
+  --color-light-orange: #ff9f0a;
+  --color-purple: #8e27b1;
+
+  --spacing-small: 10px;
+
+  --box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  --border-radius: 20px;
+
+  --theme-dark-text: #ebebeb;
+  --theme-light-text: var(--color-black);
+  --theme-neitral-text: #f9e254;
+  --theme-default-text: var(--theme-light-text);
+
+  --theme-dark-background: #535353;
+  --theme-light-background: #e6e6e6;
+  --theme-neitral-background: #1e0836;
+  --theme-default-background: var(--theme-dark-background);
+
+  --theme-dark-function: #646464;
+  --theme-light-function: #d3cdcd;
+  --theme-neitral-function: #56077a;
+  --theme-default-function: var(--theme-dark-function);
+
+  --theme-dark-operator: #ff9f0a;
+  --theme-light-operator: #b2b0ac;
+  --theme-neitral-operator: #8e27b1;
+  --theme-default-operator: var(--theme-dark-operator);
+
+  --theme-dark-number: #7d7d7d;
+  --theme-light-number: #dbdad7;
+  --theme-neitral-number: #331b4b;
+  --theme-default-number: var(--theme-dark-number);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

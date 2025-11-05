@@ -1,4 +1,5 @@
 import Calculator from '../Calculator';
+import { initTheme } from '../../utils/localStorage';
 
 class App {
   render() {
@@ -11,6 +12,7 @@ class App {
     `;
 
     Calculator.attachEventListeners();
+    initTheme();
   }
 }
 
