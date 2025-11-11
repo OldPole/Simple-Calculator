@@ -118,7 +118,7 @@ npm run deploy           # deploy app on Github Pages
 
 ---
 
-## ⚙️ Configuration Files
+## Configuration Files
 
 | File                | Purpose                     |
 | ------------------- | --------------------------- |
